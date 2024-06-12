@@ -1,0 +1,188 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fff6eb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.logo-container {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 50px;
+  display: block; 
+  margin: 0 auto;
+  pointer-events: none;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav li:hover {
+  color: #ff0000;
+}
+
+nav li:focus {
+  outline: none;
+}
+
+nav li.active {
+  color: #b10202;
+  font-weight: bold;
+}
+
+
+#conteudo {
+  padding: 90px 20px 20px;
+}
+
+#conteudo .conteudo-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#conteudo .texto {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#conteudo .texto h1, #conteudo .texto li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+}
+
+#conteudo .texto h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+#conteudo .imagem-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#conteudo .imagem-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  #conteudo {
+    padding: 70px 10px 10px;
+  }
+
+  #conteudo .conteudo-container {
+    flex-direction: column;
+  }
+
+  #conteudo .texto {
+    margin-right: 0;
+  }
+
+  #conteudo .imagem-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.imagem-pequena {
+  width: 50%; 
+  height: auto; 
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.table-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+td img {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container
+h1 {
+  text-align: center;
+  padding-top: 50px
+}
+p {
+  margin: 20px 0;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.video-container iframe {
+  width: 560px; 
+  height: 560px; 
+  max-width: 100%; 
+}
